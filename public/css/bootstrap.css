@@ -1386,6 +1386,17 @@ a.bg-success:focus,
 a.bg-success:hover {
   background-color: #c1e2b3;
 }
+
+.bg-dark {
+  color: #fff;
+  background-color: #333;
+}
+
+.bg-white {
+  color: #333;
+  background-color: #fff;
+}
+
 .bg-info {
   background-color: #d9edf7;
 }
