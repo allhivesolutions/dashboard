@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Dashboard | BINARY-SOFTWARE</title>
+  <link rel="icon" href="images/favicons/favicon.ico">
+  <link rel="apple-touch-icon" href="images/favicons/apple-touch-icon.png">
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="../css/admin.css">
+  <link rel="stylesheet" href="../css/allskin.css">
+  <link rel="stylesheet" href="../css/fullcalendra.css">
+  <link rel="stylesheet" href="../css/fullcalendraprint.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <style>
+    .blink_me {
+      animation: blinker 1s linear infinite;
+    }
+
+    @keyframes blinker {
+      50% {
+        opacity: 0;
+      }
+    }
+  </style>
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+
+</head>
+<!--<body class=" sidebar-mini skin-green-light ">-->
+
+
+
+<body class="">
+  <div class="wrapper">
+
+    <header class="main-header">
+      <!-- Logo -->
+      <a href="http://mlmdemo.asia/software/binary_software/backend/dashboard" class="logo">
+        <!-- mini logo for sidebar mini 50x50 pixels -->
+        <span class="logo-mini"><b>S A</b></span>
+        <!-- logo for regular state and mobile devices -->
+        <span class="logo-lg"><b>ALL HIVE SOLUTION</b> </span>
+      </a>
+      <!-- Header Navbar: style can be found in header.less -->
+      <nav class="navbar navbar-static-top">
+        <!-- Sidebar toggle button-->
+        <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+          <span class="sr-only">Toggle navigation</span>
+        </a>
+        <div class="navbar-custom-menu" style="float: left;">
+          <ul class="nav navbar-nav">
+            <li class="dropdown user user-menu">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                Welcome ALL HIVE SOLUTION
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="navbar-custom-menu">
+          <ul class="nav navbar-nav">
+            <!-- User Account: style can be found in dropdown.less -->
+
+            <li class="dropdown user user-menu">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <span class="hidden-xs">admin</span>
+              </a>
+              <ul class="dropdown-menu">
+                <!-- User image -->
+                <li class="user-header">
+                  <img class="profile-user-img img-responsive img-circle"
+                    src="http://mlmdemo.asia/software/binary_software/assets/img/avatar5.png"
+                    alt="User profile picture">
+
+                  <p>
+                    ALOK KUMAR BHOI <small>admin</small>
+                  </p>
+                </li>
+                <!-- Menu Footer-->
+                <li class="user-footer">
+                  <div class="pull-left">
+                    <a href="http://mlmdemo.asia/software/binary_software/backend/user/profile"
+                      class="btn btn-default btn-flat">Profile</a>
+                  </div>
+                  <div class="pull-right">
+                    <a href="http://mlmdemo.asia/software/binary_software/backend/logout"
+                      class="btn btn-default btn-flat">Sign out</a>
+                  </div>
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+    </header> <!-- Left side column. contains the logo and sidebar -->
+    <%- include('partials/sidebar') %>
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+      <!--\\\\\\\ contentpanel start\\\\\\-->
+
+      <!-- Content Header (Page header) -->
+      <button type="submit" class="btn btn-warning editbtn" style="    margin-left: -16%;
+      margin-top: 2%;">EDIT</button>
+      <section class="content-header" id="stepone">
+
+
+        <div class="container-fluid">
+          <h1 class="h3 mb-4 text-gray-800">CRYPTO MARKETPLACE MEMBERSHIP SUBSCRIPTION
+            PACKAGES (PRE BOOKING)</h1>
+  
+  
+  
+          <div class="row">
+              <div class="col-sm-12 bg-light shadow">
+  
+                 
+  
+                      <label>PAYMENT METHOD FOR PURCHASING CRYPTO
+                        MARKETPLACE MEMBERSHIP SUBSCRIPTION PACKAGE.</label>
+                      <select name="account_type" placeholder="Package" checked="saving" class="form-control" id="account_type">
+                          <option value="saving">-Select-</option>
+                          <option value="Saving">Currency</option>
+                          <option value="Saving">Cripto Currency</option>
+  
+                      </select><br>
+  
+                      <label>CRYPTO MARKETPLACE MEMBERSHIP TENURE</label>
+                      <select name="account_type" placeholder="Package" checked="saving" class="form-control" id="account_type">
+                          <option value="Saving">-Select Tenure-</option>
+                          <option value="Saving">1 MONTHS</option>
+                          <option value="Saving">6 MONTHS</option>
+                          <option value="Saving">1 YEAR</option>
+                          <option value="Saving">2 YEAR</option>
+                          <option value="Saving">3 YEAR</option>
+                          <option value="Saving">5 YEAR</option>
+                          <option value="Saving">10 YEAR</option>
+  
+  
+  
+                      </select><br>
+  
+                      <label>CRYPTO MARKETPLACE MEMBERSHIP SUBSCRIPTION </label>
+                      <select name="account_type" placeholder="Account Type" checked="Saving" class="form-control" id="account_type">
+                          <!-- Select Package -->
+                          <option value="saving">-Select-</option>
+                         <option value="type17"> TYPE 17, OFFER SUBSCRIPTION 01 :- INR 100. </option>
+                          <option value="type17"> TYPE 17, OFFER SUBSCRIPTION 02 :- INR 500. </option>
+                          <option value="type17"> TYPE 17, OFFER SUBSCRIPTION 03 :- INR 1000. </option>
+                          <option value="type17"> TYPE 17, OFFER SUBSCRIPTION 04 :- INR 5000. </option>
+                          <option value="type17"> TYPE 17, OFFER SUBSCRIPTION 05 :- INR 10,000. </option>
+                          <option value="type17"> TYPE 17, OFFER SUBSCRIPTION 06 :- INR 25,000. </option>
+                          <option value="type17"> TYPE 17, OFFER SUBSCRIPTION 07 :- INR 50,000. </option>
+                          <option value="type17"> TYPE 17, OFFER SUBSCRIPTION 08 :- INR 75,000. </option>
+                          <option value="type17"> TYPE 17, OFFER SUBSCRIPTION 09 :- INR 1,00,000. </option>
+                          <option value="type17">  TYPE 17, OFFER SUBSCRIPTION 10 :- INR 3,00,000. </option>
+                          <option value="type17">  TYPE 17, OFFER SUBSCRIPTION 11 :- INR 5,00,000. </option>
+                          <option value="type17">  TYPE 17, OFFER SUBSCRIPTION 12 :- INR 10,00,000. </option>
+                          <option value="type17">  TYPE 17, OFFER SUBSCRIPTION 13 :- INR 15,00,000. </option>
+                          <option value="type17">  TYPE 17, OFFER SUBSCRIPTION 14 :- INR 20,00,000. </option>
+                          <option value="type17">  TYPE 17, OFFER SUBSCRIPTION 15 :- INR 25,00,000. </option>
+                          <option value="type17">  TYPE 17, OFFER SUBSCRIPTION 16 :- INR 30,00,000. </option>
+                          <option value="type17">  TYPE 17, OFFER SUBSCRIPTION 17 :- INR 50,00,000. </option>
+                          <option value="type17">  TYPE 17, OFFER SUBSCRIPTION 18 :- INR 70,00,000. </option>
+                          <option value="type17">  TYPE 17, OFFER SUBSCRIPTION 19 :- INR 1,00,00,000. </option>
+                          <option value="type17">  TYPE 17, OFFER SUBSCRIPTION 20 :- INR 5,00,00,000. </option>
+                          <option value="type17">  TYPE 17, OFFER SUBSCRIPTION 21 :- INR 10,00,00,000. </option>
+                          <option value="type17">  TYPE 17, OFFER SUBSCRIPTION 22 :- INR 21,00,00,000. </option>
+                          <option value="type17">  TYPE 17, OFFER SUBSCRIPTION 23 :- INR 50,00,00,000. </option>
+                          
+                          </select><br>
+  
+                          <button type="submit" class="btn btn-warning md-5" id="hide" value="SUBMIT" style="padding: 11px;
+                          margin-bottom: 2%;
+                          width: 100%;">SUBMIT</button><br>
+                          <input type="hidden">
+                  
+              </div>
+          </div>
+         </div>
+      </section>
+
+      <!-- transcation password  -->
+      <section class="content-header password" id="password">
+        <section class="content">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="box box-primary">
+                <div class="box-header with-border">
+                  <h2 class="box-title">Enter Transcation Password</h2>
+                </div>
+                <div class="box-body">
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Transcation Password</label>
+                          <input name="ctl00$ContentPlaceHolder1$txt_old_password" type="text"
+                            id="ctl00_ContentPlaceHolder1_txt_old_password" class="form-control">
+                        </div>
+
+
+                        
+                    <button type="submit" class="btn btn-warning md-5" id="transpass" value="SUBMIT" style="padding: 11px;
+                    margin-bottom: 2%;
+                    width: 100%;">SUBMIT</button><br>
+                      </div>
+                    </div>
+                    <div class="col-sm-8">
+                      <div class="form-group">
+                        <span id="ctl00_ContentPlaceHolder1_lblMsg" style="color:Red;"></span>
+                        <div id="ctl00_ContentPlaceHolder1_ValidationSummary1" style="color:Red;display:none;">
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </section>
+
+
+      <section class="content-header" id="finalstep">
+        <section class="content">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="box box-primary">
+                <div class="box-header with-border">
+                  <h2 class="box-title">Final Payment</h2>
+                </div>
+                <div class="box-body">
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Current Account Balance</label>
+                          <input name="text" type="text" value="100" readonly
+                            id="ctl00_ContentPlaceHolder1_txt_old_password" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Current Point Account Balance</label>
+                          <input name="text" type="text" value="200" readonly
+                            id="ctl00_ContentPlaceHolder1_txt_old_password" class="form-control">
+                        </div>
+
+
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Package Price</label>
+                          <input name="text" type="text" value="500" readonly
+                            id="ctl00_ContentPlaceHolder1_txt_old_password" class="form-control">
+                        </div>
+
+
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">MASTER TRANSACTION PASSWORD</label>
+                          <input name="text" type="password" placeholder="Enter Transaction Password" 
+                            id="ctl00_ContentPlaceHolder1_txt_old_password" class="form-control">
+                        </div>
+
+
+                        
+                    <button type="submit" class="btn btn-warning md-5" id="transpass" value="SUBMIT" style="padding: 11px;
+                    margin-bottom: 2%;
+                    width: 100%;">SUBMIT</button><br>
+                      </div>
+                    </div>
+                    <div class="col-sm-8">
+                      <div class="form-group">
+                        <span id="ctl00_ContentPlaceHolder1_lblMsg" style="color:Red;"></span>
+                        <div id="ctl00_ContentPlaceHolder1_ValidationSummary1" style="color:Red;display:none;">
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </section>
+
+      <!-- Main content -->
+
+    </div>
+    <!-- /.content-wrapper -->
+  </div>
+  <!-- ./wrapper -->
+
+</body>
+
+<script>
+  $(document).ready(function () {
+    $("#password").hide();
+    $("#finalstep").hide();
+
+    $("#hide").click(function () {
+      $("#password").show();
+      $("#stepone").hide();
+
+    });
+
+
+    $("#transpass").click(function () {
+      $("#password").hide();
+      $("#finalstep").show();
+
+    });
+  });
+</script>
+
+
+<script src="../js/jquery.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/fastclick.js"></script>
+<script src="../js/main.js"></script>
+<script src="../js/demo.js"></script>
+<script src="../js/jquery-ui.js"></script>
+<script src="../js/moment.js"></script>
+<script src="../js/fullcalendra.js"></script>
+<script src="../js/chart.js"></script>
+<script src="../js/dashboard2.js"></script>
+<script src="../js/super.js"></script>
+
+</html>

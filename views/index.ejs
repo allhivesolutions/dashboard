@@ -1,0 +1,260 @@
+
+<!DOCTYPE html>
+<html lang="en"> <!--<![endif]-->
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Dashboard | BINARY-SOFTWARE</title>
+<link rel="icon" href="images/favicons/favicon.ico">
+<link rel="apple-touch-icon" href="images/favicons/apple-touch-icon.png">
+<link rel="stylesheet" href="../css/bootstrap.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+<link rel="stylesheet" href="../css/admin.css">
+<link rel="stylesheet" href="../css/allskin.css">
+<link rel="stylesheet" href="../css/fullcalendra.css">
+<link rel="stylesheet" href="../css/fullcalendraprint.css">
+<link rel="stylesheet" href="../css/main.css">
+<style>
+
+                            .blink_me {
+                              animation: blinker 1s linear infinite;
+                            }
+                            @keyframes blinker {  
+                              50% { opacity: 0; }
+                            }
+                            
+</style>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+<!--<body class=" sidebar-mini skin-green-light ">-->
+<body>
+<div class="wrapper">
+
+    <header class="main-header">
+    <!-- Logo -->
+    <a href="/" class="logo">
+        <!-- mini logo for sidebar mini 50x50 pixels -->
+        <span class="logo-mini"><b>S A</b></span>
+        <!-- logo for regular state and mobile devices -->
+        <span class="logo-lg">ALL HIVE SOLUTION</span>
+    </a>
+    <!-- Header Navbar: style can be found in header.less -->
+    <nav class="navbar navbar-static-top">
+        <!-- Sidebar toggle button-->
+        <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+            <span class="sr-only">Toggle navigation</span>
+        </a>
+        <div class="navbar-custom-menu" style="float: left;">
+            <ul class="nav navbar-nav">
+                <li class="dropdown user user-menu">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Welcome ALL HIVE SOLUTION
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="navbar-custom-menu">
+            <ul class="nav navbar-nav">
+                                <!-- User Account: style can be found in dropdown.less -->
+               
+                                <li class="dropdown user user-menu">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <span class="hidden-xs">admin</span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <!-- User image -->
+                        <li class="user-header">
+                            <img class="profile-user-img img-responsive img-circle"
+                                 src="http://mlmdemo.asia/software/binary_software/assets/img/avatar5.png" alt="User profile picture">
+
+                            <p>
+                                ALOK KUMAR BHOI                                <small>admin</small>
+                            </p>
+                        </li>
+                        <!-- Menu Footer-->
+                        <li class="user-footer">
+                            <div class="pull-left">
+                                <a href="http://mlmdemo.asia/software/binary_software/backend/user/profile" class="btn btn-default btn-flat">Profile</a>
+                            </div>
+                            <div class="pull-right">
+                                <a href="http://mlmdemo.asia/software/binary_software/backend/logout" class="btn btn-default btn-flat">Sign out</a>
+                            </div>
+                        </li>
+                    </ul>
+                </li></ul>
+
+        </div>
+    </nav>
+</header>    <!-- Left side column. contains the logo and sidebar -->
+<%- include('partials/sidebar') %>
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">      
+        <!-- Content Header (Page header) -->
+
+        <section class="content-header">
+            <h1> Dashboard
+                <small>Control panel</small>
+            </h1>
+
+            <ol class="breadcrumb">
+                <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+                <li class="active">Dashboard</li>
+            </ol>
+        </section>
+
+        <!-- Main content -->
+         <section class="content">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="info-box info-box_2_bg_color">
+                        <span class="info-box-icon"><i class="fa fa-users"></i></span>
+                        <div class="info-box-content">
+                            <span class="info-box-text"># Directs</span>
+                            <span class="info-box-text">
+                                <span id="ctl00_ContentPlaceHolder1_lbldirectmember">7.00</span>
+                            </span>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 70%"></div>
+                            </div>
+                            <span class="progress-description">
+                                <a href="#" id="ctl00_ContentPlaceHolder1_a8">View More <i class="fa fa-arrow-circle-right"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="info-box info-box_2_bg_color">
+                        <span class="info-box-icon"><i class="fa fa-support"></i></span>
+                        <div class="info-box-content">
+                            <span class="info-box-text">Package</span>
+                            <span class="info-box-text">
+                                <span id="ctl00_ContentPlaceHolder1_lbljoiningpackage">5.00</span>
+                            </span>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 70%"></div>
+                            </div>
+                            <span class="progress-description">
+                                <a href="#" id="ctl00_ContentPlaceHolder1_a10">View More <i class="fa fa-arrow-circle-right"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="info-box info-box_2_bg_color">
+                        <span class="info-box-icon"><i class="fa fa-bank"></i></span>
+                        <div class="info-box-content">
+                            <span class="info-box-text">Account Balance</span>
+                            <span class="info-box-text">
+                                <span id="ctl00_ContentPlaceHolder1_lblaccountbalance">0.00</span>
+                            </span>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 70%"></div>
+                            </div>
+                            <span class="progress-description">
+                                <a href="#" id="ctl00_ContentPlaceHolder1_a7">View More <i class="fa fa-arrow-circle-right"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="info-box info-box_2_bg_color">
+                        <span class="info-box-icon"><i class="fa fa-inr"></i></span>
+                        <div class="info-box-content">
+                            <span class="info-box-text">Point Balance</span>
+                            <span class="info-box-text">
+                                <span id="ctl00_ContentPlaceHolder1_lblpointbalance">0.00</span>
+                            </span>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 70%"></div>
+                            </div>
+                            <span class="progress-description">
+                                <a href="#" id="ctl00_ContentPlaceHolder1_a1">View More <i class="fa fa-arrow-circle-right"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="box box-widget widget-user-2">
+                        <div class="widget-user-header bg-yellow" style="padding: 10px;">
+                            <div class="widget-user-image">
+                                <span class="info-box-icon" style="float: left; text-align: left; line-height: 55px; background: none; height: 60px; width: 60px;">
+                                    <i class="fa fa-user"></i></span>
+                            </div>
+                            <h4 class="widget-user-username">Package</h4>
+                            <h5 class="widget-user-desc">My Package Support Count</h5>
+                        </div>
+                        <div class="box-footer no-padding">
+                            <ul class="nav nav-stacked">
+                                <li><a href="#">Global Support<span class="pull-right badge bg-yellow">0</span></a></li>
+                                <li><a href="#">Growth Support <span class="pull-right badge bg-yellow">0</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="box box-widget widget-user-2">
+                        <div class="widget-user-header bg-yellow" style="padding: 10px;">
+                            <div class="widget-user-image">
+                                <span class="info-box-icon" style="float: left; text-align: left; line-height: 55px; background: none; height: 60px; width: 60px;">
+                                    <i class="fa fa-user"></i></span>
+                            </div>
+                            <h4 class="widget-user-username">Given Support</h4>
+                            <h5 class="widget-user-desc">My Given Support Count</h5>
+                        </div>
+                        <div class="box-footer no-padding">
+                            <ul class="nav nav-stacked">
+                                <li><a href="#">Global Support<span class="pull-right badge bg-yellow">0</span></a></li>
+                                <li><a href="#">Growth Support <span class="pull-right badge bg-yellow">0</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="box box-widget widget-user-2">
+                        <div class="widget-user-header bg-yellow" style="padding: 10px;">
+                            <div class="widget-user-image">
+                                <span class="info-box-icon" style="float: left; text-align: left; line-height: 55px; background: none; height: 60px; width: 60px;">
+                                    <i class="fa fa-user"></i></span>
+                            </div>
+                            <h4 class="widget-user-username">Received Support</h4>
+                            <h5 class="widget-user-desc">My Received Support Count</h5>
+                        </div>
+                        <div class="box-footer no-padding">
+                            <ul class="nav nav-stacked">
+                                <li><a href="#">Global Support<span class="pull-right badge bg-yellow">0</span></a></li>
+                                <li><a href="#">Growth Support <span class="pull-right badge bg-yellow">0</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            
+        </section>
+    </div>
+<!-- /.content-wrapper -->
+</div>
+<!-- ./wrapper -->
+
+</body>
+<script src="../js/jquery.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/fastclick.js"></script>
+<script src="../js/main.js"></script>
+<script src="../js/demo.js"></script>
+<script src="../js/jquery-ui.js"></script>
+<script src="../js/moment.js"></script>
+<script src="../js/fullcalendra.js"></script>
+<script src="../js/chart.js"></script>
+<script src="../js/dashboard2.js"></script>
+<script src="../js/super.js"></script>
+
+</html>

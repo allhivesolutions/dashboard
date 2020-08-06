@@ -1,0 +1,84 @@
+.ticker {
+  overflow: hidden;
+  padding:0px;
+  margin:0px;
+}
+
+.treadmill-unit {
+	overflow: hidden;
+	position: relative;
+	padding-bottom: 10px;
+}
+
+.treadmill-unit .fa {
+	padding: 2px;
+	background-color: #eeeeee;
+}
+.treadmill-inner {
+	padding-left:10px
+}
+.ticker li {
+	border-bottom: 1px solid #eee;
+	padding: 7px 0px;
+}
+.ticker .heading {
+	font-size: 18px;
+	line-height: 36px;
+}
+.ticker p {
+	font-weight: normal;
+	margin: 1px;
+}
+
+
+
+
+ul li {
+	display: inline;
+	padding: 20px;
+}
+
+ul {
+	margin-top: 50px;
+}
+
+.link-new {
+	background-color: aqua;
+}
+
+.navbar {
+	background-color: #fd7e14 !important;
+}
+
+span {
+	color: #fd7e14 !important;
+}
+
+.dropdown-toggle {
+	color: white !important;
+	margin-top: -10%;
+}
+
+
+.sidebar-toggle {
+	color: white !important;
+}
+
+.fa {
+	color: #fd7e14 !important;
+}
+
+
+.materialil {
+	color: red;
+}
+
+
+.navbar {
+	height: 0 !important;
+}
+
+.hidden-xs {
+	color: white !important;
+	margin-top: -32% !important;
+}

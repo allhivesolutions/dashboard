@@ -1,0 +1,173 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en"> <!--<![endif]-->
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Dashboard | BINARY-SOFTWARE</title>
+<link rel="icon" href="images/favicons/favicon.ico">
+<link rel="apple-touch-icon" href="images/favicons/apple-touch-icon.png">
+<link rel="stylesheet" href="../css/bootstrap.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+<link rel="stylesheet" href="../css/admin.css">
+<link rel="stylesheet" href="../css/allskin.css">
+<link rel="stylesheet" href="../css/fullcalendra.css">
+<link rel="stylesheet" href="../css/fullcalendraprint.css">
+<link rel="stylesheet" href="../css/main.css">
+<style>
+
+                            .blink_me {
+                              animation: blinker 1s linear infinite;
+                            }
+                            @keyframes blinker {  
+                              50% { opacity: 0; }
+                            }
+                            
+</style>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+<!--<body class=" sidebar-mini skin-green-light ">-->
+<body class="">
+<div class="wrapper">
+
+    <header class="main-header">
+        <!-- Logo -->
+        <a href="http://mlmdemo.asia/software/binary_software/backend/dashboard" class="logo">
+            <!-- mini logo for sidebar mini 50x50 pixels -->
+            <span class="logo-mini"><b>S A</b></span>
+            <!-- logo for regular state and mobile devices -->
+            <span class="logo-lg"><b>ALL HIVE SOLUTION</b> </span>
+        </a>
+        <!-- Header Navbar: style can be found in header.less -->
+        <nav class="navbar navbar-static-top">
+            <!-- Sidebar toggle button-->
+            <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+                <span class="sr-only">Toggle navigation</span>
+            </a>
+            <div class="navbar-custom-menu" style="float: left;">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown user user-menu">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                Welcome ALL HIVE SOLUTION
+                        </a>
+                    </li>
+                </ul>
+            </div>
+    
+            <div class="navbar-custom-menu">
+                <ul class="nav navbar-nav">
+                                    <!-- User Account: style can be found in dropdown.less -->
+                    
+                                    <li class="dropdown user user-menu">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <span class="hidden-xs">admin</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <!-- User image -->
+                            <li class="user-header">
+                                <img class="profile-user-img img-responsive img-circle"
+                                     src="http://mlmdemo.asia/software/binary_software/assets/img/avatar5.png" alt="User profile picture">
+    
+                                <p>
+                                    ALOK KUMAR BHOI                                <small>admin</small>
+                                </p>
+                            </li>
+                            <!-- Menu Footer-->
+                            <li class="user-footer">
+                                <div class="pull-left">
+                                    <a href="http://mlmdemo.asia/software/binary_software/backend/user/profile" class="btn btn-default btn-flat">Profile</a>
+                                </div>
+                                <div class="pull-right">
+                                    <a href="http://mlmdemo.asia/software/binary_software/backend/logout" class="btn btn-default btn-flat">Sign out</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li></ul>
+    
+            </div>
+        </nav>
+    </header>    <!-- Left side column. contains the logo and sidebar -->
+    <%- include('../partials/sidebar') %>
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+          <!--\\\\\\\ contentpanel start\\\\\\-->
+          
+    <!-- Content Header (Page header) -->
+
+<section class="content-header">
+    <div class="container-fluid">
+        <h2>GIVE SUPPORT LINK REQUEST</h2>
+
+
+
+        <div class="col-sm-12 bg-light shadow">
+            <label>Select Support Request</label>
+            <select class="form-control">
+                <option value="-Select Support Request-">-Select Support Request-</option>
+                <option value="type">Worldwide community Network.</option>
+            </select><br>
+
+            <label>Select AHS Support</label>
+            <select class="form-control">
+                <option value="-Select Support Request-">-Select Support Request-</option>
+                <option value="type">AHS SUPPORT CODE COMMUNITY GROWTH.</option>
+            </select><br>
+
+            <button type="submit" class="btn btn-warning" style="width: 100%; margin-bottom: 20px;">SUBMIT</button>
+        </div>
+
+
+        <!-- tabel -->
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">S.no</th>
+                <th scope="col">UserID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Document Type</th>
+                <th scope="col">Submit Date</th>
+                <th scope="col">Document Status</th>
+                <th scope="col">Approve Date</th>
+                <th scope="col">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">No Data Available</th>
+                
+              </tr>
+             
+            </tbody>
+          </table>
+    </div>
+
+</section>
+
+
+<!-- Main content -->
+
+</div>
+<!-- /.content-wrapper -->
+</div>
+<!-- ./wrapper -->
+
+</body>
+<script src="../js/jquery.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/fastclick.js"></script>
+<script src="../js/main.js"></script>
+<script src="../js/demo.js"></script>
+<script src="../js/jquery-ui.js"></script>
+<script src="../js/moment.js"></script>
+<script src="../js/fullcalendra.js"></script>
+<script src="../js/chart.js"></script>
+<script src="../js/dashboard2.js"></script>
+<script src="../js/super.js"></script>
+
+</html>
