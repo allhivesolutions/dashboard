@@ -39,6 +39,7 @@ var affiliateearning = require('./routes/affiliateearning');
 var systemsupport = require('./routes/systemsupport');
 var pointearn = require('./routes/pointearn');
 var payment_option = require('./routes/payment-option');
+var upcomming = require('./routes/upcomming');
 
 
 
@@ -97,6 +98,7 @@ app.use('/affiliateearning', affiliateearning);
 app.use('/systemsupport', systemsupport);
 app.use('/pointearn', pointearn);
 app.use('/payment-option', payment_option);
+app.use('/upcomming', upcomming);
 
 
 // Access Control
